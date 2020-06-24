@@ -64,3 +64,18 @@ nav {
     margin-right: 80px;
 }
 
+
+
+@media screen and (max-width: 765px) {
+    .toggle {
+        clear: both;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        width:100%;
+        color: #000;
+        background: #ffcc01;
+        transition: all .1s linear;
+    }
+}
