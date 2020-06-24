@@ -42,3 +42,12 @@ nav {
     border-radius: 3px;
 }
 
+.menu li a.logo {
+    font-size: 25px;
+    margin-right: 240px;
+}
+
+.menu li a.contacts {
+    margin-right: 100px;
+}
+
