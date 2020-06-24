@@ -31,5 +31,7 @@ nav {
 .menu li a {
     color: #000;
     text-decoration: none;
-    
+    align-self: center;
+    font-size: 13px;
+    padding: 10px 15px;
 }
