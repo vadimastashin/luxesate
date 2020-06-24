@@ -78,4 +78,27 @@ nav {
         background: #ffcc01;
         transition: all .1s linear;
     }
+
+    .toggle:hover {
+        background:#d3a900;
+    }
+    
+    #checkbox-menu:checked + label .touch li {
+        opacity: 1;
+        visibility: visible;
+        transition: all .7s linear;
+    }
+
+    #checkbox-menu:checked + label .touch {
+        height: 350px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 0;
+        transition: height .3s linear;
+    }
 }
