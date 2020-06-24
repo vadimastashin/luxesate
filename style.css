@@ -101,4 +101,28 @@ nav {
         height: 0;
         transition: height .3s linear;
     }
+
+    .menu li {
+        display: flex;
+        align-self: center;
+        width: 95%;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .menu li a {
+        width: 95%;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+    }
+
+    .menu li a.logo {
+        font-size: 21px;
+        margin-right: 0;
+    }
+    
+    .menu li a.contacts {
+        margin-right: 0;
+    }
 }
