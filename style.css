@@ -27,3 +27,9 @@ nav {
     align-items: center;
     list-style: none;
 }
+
+.menu li a {
+    color: #000;
+    text-decoration: none;
+    
+}
