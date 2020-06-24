@@ -16,3 +16,14 @@ nav {
 #checkbox-menu, .toggle {
     display: none;
 }
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    align-items: center;
+    list-style: none;
+}
