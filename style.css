@@ -197,6 +197,20 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 25px;
+}
+
+.card-info .price {
+    font-size: 18px;
+    color: #ffcc01;
+}
+
+.card-info span:first-child {
+    margin-right: 18px;
+}
+
+.card-info i {
+    margin-right: 8px;
 }
 
 
