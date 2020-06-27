@@ -154,6 +154,17 @@ nav {
     width: 200px;
     height: 200px;
     background-color: #f6f5f4;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-square {
+    font-size: 40px;
+    color: #fecf11;
+    margin-bottom: 13px;
 }
 
 
