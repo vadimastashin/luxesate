@@ -394,6 +394,30 @@ nav {
         height: 140px;
     }
 
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-row-gap: 10px;
+        justify-items: center;
+    }
+
+    .apart input[type=text] {
+        width: 130px;
+        margin-top: 20px;
+    }
+    
+    .buttons-search {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .all {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    
+
 }
 
 
