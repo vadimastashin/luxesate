@@ -183,11 +183,25 @@ nav {
     margin-bottom: 85px;
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 30px;
+}
+
 .card {
     max-width: 350px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+.card:hover {
+    background-color: #fafaf9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
 
 .card-container {
     padding: 25px;
