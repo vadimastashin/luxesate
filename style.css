@@ -276,7 +276,29 @@ nav {
         margin-right: 10px;
     }
 
+    .stats {
+        margin-top: 0;
+        flex-direction: column;
+    }
 
+    .stats-text {
+        padding: 10px;
+    }
+
+    .stats-text h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .stats-text p {
+        margin-top: 5px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .square {
+        height: 140px;
+    }
 
 }
 
