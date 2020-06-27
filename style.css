@@ -232,7 +232,9 @@ nav {
     height: 70px;
     margin-top: 50px;
     border: none;
-    background: url(assets/search_icon.png) no-repeat;  
+    outline: none;
+    background: url(assets/search_icon.png) no-repeat;
+    background-position: 27px;  
 }
 
 
