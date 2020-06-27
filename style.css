@@ -189,6 +189,15 @@ nav {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+.card-container {
+    padding: 25px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 
 
