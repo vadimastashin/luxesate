@@ -98,7 +98,7 @@ nav {
 
 .intro-contacts {
     position: absolute;
-    top: 530px;
+    top: 522px;
     right: 0;
     display: flex;
     flex-direction: row;
@@ -119,6 +119,39 @@ nav {
     color: #fff;
     margin-right: 30px;
 }
+
+
+/* Блок Stats */
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+}
+
+.stats-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.stats-text {
+    padding-right: 40px;
+
+}
+
+.stats-text h2 {
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.stats-text p {
+    margin-top: 50px;
+    font-size: 13px;
+    line-height: 27px;
+}
+
+
+
 
 
 @media screen and (max-width: 765px) {
