@@ -269,6 +269,14 @@ nav {
     display: flex;
 }
 
+.steps h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #1f373d;
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+
 
 
 @media screen and (max-width: 765px) {
