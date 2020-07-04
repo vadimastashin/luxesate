@@ -5,6 +5,8 @@
 
 body, html {
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #1f373d;
 }
 
 html {
@@ -173,6 +175,10 @@ nav {
     font-weight: 700;
 }
 
+
+/* Appartments */
+
+
 .apartments {
     background-color: #f6f5f4;
     padding: 60px 0;
@@ -269,6 +275,9 @@ nav {
     display: flex;
 }
 
+
+/* Steps */
+
 .steps h2 {
     font-size: 40px;
     font-weight: 600;
@@ -355,6 +364,51 @@ nav {
 
 .steps-block:hover .steps-find a:after {
     background-color: #fff;
+}
+
+/* Services */
+
+.services .services-title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #1f373d;
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+
+.services .sevices-info {
+    width: 40%;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.services-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.services-image {
+    width: 50%;
+}
+
+.services-text {
+    width: 40%;
+    margin-top: 0;
+}
+
+.services-text .title {
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-top: 0;
+}
+
+.services-text .info {
+    font-size: 13px;
+    line-height: 30px;
 }
 
 
