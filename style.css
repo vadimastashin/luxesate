@@ -278,8 +278,10 @@ nav {
 }
 
 .steps-text {
-    line-height: 27px;
+    width: 40%;
     font-size: 13px;
+    line-height: 27px;
+    margin-bottom: 70px;
 }
 
 
