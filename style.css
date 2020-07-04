@@ -328,6 +328,12 @@ nav {
     margin-right: 15px;
 }
 
+.steps-block .steps-info {
+    margin-left: 70px;
+    line-height: 29px;
+}
+
+
 @media screen and (max-width: 765px) {
     .toggle {
         clear: both;
