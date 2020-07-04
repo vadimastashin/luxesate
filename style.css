@@ -284,7 +284,49 @@ nav {
     margin-bottom: 70px;
 }
 
+.steps-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.steps-block {
+    width: 340px;
+    height: 370px;
+    background: #fff; 
+    color: #2a343a; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+.steps-block .steps-num {
+    font-size: 200px;
+    font-weight: 700;
+    position: relative;
+    top: -150px;
+    left: -30px;
+}
+
+.steps-block:hover {
+    background: #ffc201;    
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+   }
+
+.steps-block:hover .steps-num {
+    color: #fff;
+}
+
+.steps-block .steps-title {
+    font-size: 14px;
+    margin-top: -170px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.steps-block .steps-title span {
+    margin-right: 15px;
+}
 
 @media screen and (max-width: 765px) {
     .toggle {
