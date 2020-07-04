@@ -288,6 +288,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .steps-block {
@@ -332,6 +333,30 @@ nav {
     margin-left: 70px;
     line-height: 29px;
 }
+
+.steps-block .steps-find {
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+.steps-block .steps-find a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.steps-block .steps-find a:after {
+    content: " ";
+    display: block;
+    width: 110px;
+    height: 4px;
+    background-color: #2a343a;
+    margin-top: 10px;
+} 
+
+.steps-block:hover .steps-find a:after {
+    background-color: #fff;
+}
+
 
 
 @media screen and (max-width: 765px) {
@@ -479,7 +504,22 @@ nav {
         margin-top: 10px;
         margin-left: 0;
     }
+
+    .steps h2, .steps-text {
+        margin-left: 3%;
+    }
     
+    .steps-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .steps-block {
+        margin-bottom: 20px;
+    }
+
 
 }
 
