@@ -443,6 +443,13 @@ nav {
     justify-content: space-between;
 }
 
+.agent-block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+}
+
 
 
 
