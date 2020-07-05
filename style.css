@@ -437,14 +437,20 @@ nav {
     margin-bottom: 70px;
 }
 
+
 .agent-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.agent-block {
+.agents-card .name {
+    display: block;
     width: 100%;
+
+}
+
+.agent-block {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
