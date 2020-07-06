@@ -17,6 +17,11 @@ body {
     width: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
 .wrapper {
     max-width: 1170px;
     width: 100%;
@@ -444,17 +449,21 @@ nav {
     justify-content: space-between;
 }
 
-.agents-card .name {
+.agents .agents-card .name {
     display: block;
     width: 100%;
+    margin-bottom: 20px;     
 
 }
 
-.agent-block {
+.agents .agent-block {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
+
 
 
 
