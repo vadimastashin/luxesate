@@ -514,8 +514,30 @@ nav {
 .add-line {
     display: flex;
     flex-direction: row;
+    padding-bottom: 90px;
 }
 
+.add-line:last-child {
+    padding-bottom: 0;
+}
+
+.line-text {
+    color: #1f373d;
+}
+
+.line-text h3 {
+    font-size: 25px;
+}
+
+.add-img {
+    position: relative;
+}
+
+.location {
+    position: absolute;
+    display: block;
+
+} 
 
 @media screen and (max-width: 765px) {
     .toggle {
