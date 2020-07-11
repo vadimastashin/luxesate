@@ -472,6 +472,11 @@ nav {
     margin: 20px auto 20px auto; 
 }
 
+.agent-block .title {
+    font-size: 15px;
+    color: #ffcc01;
+}
+
 .social i {
     margin-right: 30px;
 }
