@@ -505,8 +505,16 @@ nav {
 }
 
 
+/* Add */
 
+.add {
+    padding: 100px 0 90px 0;
+}
 
+.add-line {
+    display: flex;
+    flex-direction: row;
+}
 
 
 @media screen and (max-width: 765px) {
