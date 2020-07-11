@@ -457,9 +457,16 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.agent-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
 .agent-card .name {
     display: block;
     width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1f373d;   
     margin-top: 20px;
     margin-left: 20px;
 }    
@@ -474,10 +481,12 @@ nav {
 
 .agent-block .title {
     font-size: 15px;
+    font-weight: 600;
     color: #ffcc01;
 }
 
 .social i {
+    color: #1f373d;
     margin-right: 30px;
 }
 
