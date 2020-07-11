@@ -536,8 +536,17 @@ nav {
 .location {
     position: absolute;
     display: block;
+    font-size: 18px;
+    padding: 30px 87px 35px 55px;
+    background-color: #ffcc01;
 
-} 
+}
+
+.location i {
+    color: #fff;
+    margin-right: 30px;
+    font-size: 25px;
+}
 
 @media screen and (max-width: 765px) {
     .toggle {
