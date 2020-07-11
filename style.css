@@ -450,9 +450,15 @@ nav {
     justify-content: space-between;
 }
 
-.agents .agents-card .name {
+.agent-card {
+    max-width: 350px;
+    height: 480px;
+}
+
+.agent-card .name {
     display: block;
     width: 100%;
+    margin-top: 20px;
 }    
 
 .agents .agent-block {
