@@ -527,6 +527,9 @@ nav {
 
 .line-text h3 {
     font-size: 25px;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    margin-left: 130px;
 }
 
 .add-img {
@@ -543,13 +546,24 @@ nav {
     margin-left: 100px;
 }
 
-
-
 .location i {
     color: #fff;
     margin-right: 30px;
     font-size: 25px;
+    position: relative;
+    top: 2px;
 }
+
+.location span {
+    font-weight: 600;
+}
+
+.add-line-right .location {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 260px; 
+}
+
 
 @media screen and (max-width: 765px) {
     .toggle {
