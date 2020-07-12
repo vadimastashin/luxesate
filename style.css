@@ -641,15 +641,46 @@ footer .afterline {
     background-position: 95%;
 }
 
+footer .footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-info .footer-logo {
+    font-size: 25px;
+    margin-right: 26px;
+}
+
+.footer-links {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 90px;
+}
+
+.footer-link-item p {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 40px;
+    font-size: 13px;
+    text-transform: uppercase;
+    opacity: 0.3;
+}
 
 .footer-link-item ul {
     margin: 0;
     padding: 0;
-}
+    display: flex;
+    flex-direction: column;
+    }
 
 .footer-link-item a {
+    font-size: 13px;
     color: #fff;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
 
