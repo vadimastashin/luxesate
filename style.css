@@ -591,10 +591,12 @@ nav {
     width: 244px;
     background-color: #2a343a;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     color: #fff;
     text-decoration: none;
-    padding: 30px 70px 30px 77px;
+    margin-top: 30px;
+    margin-left: 130px;
+    padding: 30px 70px 30px 50px;
 }
 
 
