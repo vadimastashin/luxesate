@@ -840,10 +840,22 @@ nav {
         margin-bottom: 20px;
     }
 
+
+    /* Add */
+
     .add-line {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .add-line:first-child {
+        padding-bottom: 10px;
+    }
+
+    .add-line.add-line-right {
+        padding-bottom: 50px;
     }
 
     .line-text h3 {
@@ -861,9 +873,11 @@ nav {
         margin-left: auto;
     }
 
+
+
     .add-line-right .line-text h3 {
         text-align: center;
-        margin: 0 auto 30px auto;
+        margin: 30px auto 30px auto;
     }
     
     .add-line-right .line-text p {
@@ -892,6 +906,16 @@ nav {
         margin-right: 10px;
         font-size: 20px;
         top: 0;
+    }
+
+    .add-line a.add-button {
+        width: 50%;
+        margin: 40px auto 10px auto;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+        padding: 20px auto 20px auto;
     }
 
 
