@@ -842,6 +842,8 @@ nav {
 
     .add-line {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .line-text h3 {
@@ -850,10 +852,11 @@ nav {
         margin: 50px auto 30px auto;
     }
     
-    .line-text p {
+    .add-line .line-text p {
         font-size: 13px;
         line-height: 20px;
-        margin-left: 90px;
+        margin-right: auto;
+        margin-left: auto;
     
     }
     
@@ -863,9 +866,11 @@ nav {
     }
     
     .add-line-right .line-text p {
+        width: 90%;
         text-align: center;
         line-height: 20px;
-        margin: 50px auto 30px auto;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .location {
