@@ -539,8 +539,11 @@ nav {
     font-size: 18px;
     padding: 30px 87px 35px 55px;
     background-color: #ffcc01;
-
+    margin-top: -50px;
+    margin-left: 100px;
 }
+
+
 
 .location i {
     color: #fff;
