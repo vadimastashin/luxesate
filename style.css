@@ -622,6 +622,7 @@ footer .afterline {
     width: 100%;
     height: 2px;
     background-color: #fff;
+    opacity: 0.3;
     margin: 0 auto 70px; 
 }
 
@@ -635,6 +636,9 @@ footer .afterline {
     font-size: 15px;
     color: #919eb1;
     padding-left: 27px;
+    background-image: url(assets/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
 }
 
 
