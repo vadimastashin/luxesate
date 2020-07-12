@@ -588,10 +588,13 @@ nav {
 
 .add-line a.add-button {
     display: block;
+    width: 244px;
     background-color: #2a343a;
     font-size: 18px;
     font-weight: 600;
     color: #fff;
+    text-decoration: none;
+    padding: 30px 70px 30px 77px;
 }
 
 
