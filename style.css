@@ -838,6 +838,14 @@ nav {
         margin-bottom: 20px;
     }
 
+    .add-line {
+        flex-direction: column;
+    }
+
+    .location {
+        font-size: 15px;
+    }
+
 }
 
 
