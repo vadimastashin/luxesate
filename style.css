@@ -532,6 +532,28 @@ nav {
     margin-left: 130px;
 }
 
+.line-text p {
+    font-size: 13px;
+    line-height: 30px;
+    margin-left: 130px;
+
+}
+
+.add-line-right .line-text h3 {
+    text-align: right;
+    margin-right: 130px;
+}
+
+.add-line-right .line-text p {
+    text-align: right;
+    margin-right: 130px;
+    margin-left: 0;
+}
+
+.add-line:last-child .line-text h3 {
+    margin-top: 30px;
+}
+
 .add-img {
     position: relative;
 }
@@ -562,6 +584,14 @@ nav {
     position: absolute;
     margin-top: -50px;
     margin-left: 260px; 
+}
+
+.add-line a.add-button {
+    display: block;
+    background-color: #2a343a;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
 }
 
 
