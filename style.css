@@ -683,6 +683,14 @@ footer .footer-info {
     margin-bottom: 20px;
 }
 
+.footer-link-item a:last-child {
+    margin-bottom: 0;
+}
+
+.footer-link-item a:hover {
+    opacity: 0.4;
+}
+
 
 
 @media screen and (max-width: 765px) {
