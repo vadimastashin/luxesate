@@ -614,17 +614,18 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    margin-bottom: 48px;
 }
 
-/*.footer-block:after {
-    content:"";
-    display: block;
-    width: 1110px;
-    height: 2px;
-    margin-top: 50px;
-    background-color: #8290a2;
-}*/
+.footer-block .footer-logo h3 {
+    font-size: 40px;
+}
+
+.footer-search input [type=text] {
+    width: 442px;
+    height: 70px;
+}
+
 
 .footer-link-item ul {
     margin: 0;
