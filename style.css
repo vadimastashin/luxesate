@@ -546,6 +546,8 @@ nav {
 
 .add-line-right .line-text p {
     text-align: right;
+    font-size: 13px;
+    line-height: 30px;
     margin-right: 130px;
     margin-left: 0;
 }
@@ -842,6 +844,30 @@ nav {
         flex-direction: column;
     }
 
+    .line-text h3 {
+        text-align: center;
+        font-size: 20px;
+        margin: 50px auto 30px auto;
+    }
+    
+    .line-text p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-left: 90px;
+    
+    }
+    
+    .add-line-right .line-text h3 {
+        text-align: center;
+        margin: 50px auto 30px auto;
+    }
+    
+    .add-line-right .line-text p {
+        text-align: center;
+        line-height: 20px;
+        margin: 50px auto 30px auto;
+    }
+
     .location {
         font-size: 15px;
         padding: 15px 10px 18px 11px;
@@ -854,6 +880,12 @@ nav {
         padding: 15px 10px 18px 11px;
         margin-top: -30px;
         margin-left: 50%; 
+    }
+
+    .location i {
+        margin-right: 10px;
+        font-size: 20px;
+        top: 0;
     }
 
 
