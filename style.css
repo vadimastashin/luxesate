@@ -601,6 +601,42 @@ nav {
     padding: 30px 70px 30px 50px;
 }
 
+footer {
+    width: 100%;
+    background-color: #1f373d;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.footer-block {
+    width: 1110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/*.footer-block:after {
+    content:"";
+    display: block;
+    width: 1110px;
+    height: 2px;
+    margin-top: 50px;
+    background-color: #8290a2;
+}*/
+
+.footer-link-item ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
 
 @media screen and (max-width: 765px) {
     .toggle {
